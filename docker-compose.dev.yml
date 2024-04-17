@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "5900:5900"
+      - "8083:8083"
+    environment:
+      - NODE_ENV=production
+    entrypoint: ./entrypoint.sh
+   

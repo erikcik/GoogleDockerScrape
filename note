@@ -1,0 +1,4 @@
+ docker-compose -f docker-compose.dev.yml up --build
+185.48.183.92
+root
+aJs9b?8x96

@@ -1,0 +1,30 @@
+{
+  "name": "pup-3deneme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "docker.test": "docker-compose -f docker-compose.dev.yml up --build",
+    "deploy.aws": "scp -i  .dockerignore docker-compose.dev.yml Dockerfile entrypoint.sh note package.json package-lock.json tsconfig.json index.ts allPlaces.txt root@185.48.183.92:/root/downloads"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "@types/ws": "^8.5.10",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3",
+    "ws": "^8.16.0"
+  }
+}

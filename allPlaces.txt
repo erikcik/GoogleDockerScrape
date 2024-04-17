@@ -1,0 +1,828 @@
+Atakent	Küçükçekmece	93.229	8,52
+Adnan Kahveci	Beylikdüzü	86.584	4,59
+Zafer	Bahçelievler	85.464	1,085
+Zümrütevler	Maltepe	82.651	3,244
+Halkalı Merkez	Küçükçekmece	78.180	4,409
+Kayabaşı	Başakşehir	74.815	13,835
+Karadeniz	Gaziosmanpaşa	73.225	1,38
+İnönü	Küçükçekmece	73.048	1,883
+50. Yıl	Sultangazi	72.891	1,144
+Kocasinan Merkez	Bahçelievler	72.738	1,975
+Yeşilkent	Avcılar	71.783	5,067
+Soğanlı	Bahçelievler	71.388	0,958
+Başak	Başakşehir	70.258	24,546
+Kanarya	Küçükçekmece	67.272	1,415
+Siyavuşpaşa	Bahçelievler	65.868	0,812
+Esentepe	Sultangazi	63.310	1,752
+Cihangir	Avcılar	62.149	3,813
+Bahçelievler	Bahçelievler	61.832	3,182
+Cebeci	Sultangazi	60.416	10,843
+Kavakpınar	Pendik	60.252	2,844
+Fındıklı	Maltepe	59.271	1,152
+Başakşehir	Başakşehir	58.445	8,134
+Yenişehir	Pendik	57.841	6,651
+Şirinevler	Bahçelievler	57.641	1,092
+Güvercintepe	Başakşehir	55.783	5,932
+Aydınlı	Tuzla	55.493	9,74
+Demirkapı	Bağcılar	55.446	1,075
+İsmetpaşa	Sultangazi	54.837	0,939
+Mehmet Akif	Küçükçekmece	53.351	1,111
+Tahtakale	Avcılar	53.209	11,439
+Yıldırım	Bayrampaşa	53.027	1,487
+Barış	Beylikdüzü	51.900	2,314
+Güneştepe	Güngören	51.759	0,745
+Cumhuriyet	Küçükçekmece	51.065	1,325
+15 Temmuz	Bağcılar	50.755	1,893
+Barbaros Hayrettin Paşa	Gaziosmanpaşa	50.748	0,923
+100. Yıl	Bağcılar	49.136	1,311
+Kaynarca	Pendik	48.246	3,234
+Hürriyet	Kartal	47.943	2,582
+Hürriyet	Bahçelievler	47.377	0,573
+İstiklal	Ümraniye	47.160	1,008
+Kazım Karabekir	Gaziosmanpaşa	47.072	0,882
+Yunus Emre	Sultangazi	46.999	1,271
+Turgut Reis	Esenler	46.953	0,589
+Güneşli	Bağcılar	46.831	1,227
+Denizköşkler	Avcılar	45.942	1,684
+Fatih	Esenler	45.797	0,512
+Oruçreis	Esenler	45.372	8,789
+Fatih	Bağcılar	45.242	0,661
+Kartaltepe	Bayrampaşa	44.460	0,843
+Yakuplu	Beylikdüzü	43.962	5,914
+Kirazlı	Bağcılar	43.390	0,941
+Nine Hatun	Esenler	43.328	0,501
+Atatürk	Küçükçekmece	42.737	1,433
+Bağlarbaşı	Maltepe	41.773	1,632
+Cumhuriyet	Bahçelievler	41.720	0,696
+Uğur Mumcu	Sultangazi	41.665	1,432
+Uğur Mumcu	Kartal	41.544	1,763
+Bahçeşehir 2. Kısım	Başakşehir	41.437	8,691
+Gümüşpala	Avcılar	41.317	1,149
+Akşemsettin	Eyüp	41.073	1,411
+Karayolları	Gaziosmanpaşa	40.628	1,54
+Gençosman	Güngören	40.525	1,257
+Yıldıztepe	Bağcılar	40.160	0,604
+Sultançiftliği	Sultangazi	38.550	0,616
+Yeşilpınar	Eyüp	38.497	1,28
+Ambarlı	Avcılar	38.318	1,82
+Hamidiye	Kağıthane	38.313	3,081
+İstasyon	Küçükçekmece	37.997	3,076
+Kartaltepe	Bakırköy	37.778	1,337
+Göztepe	Bağcılar	37.553	1,628
+Telsiz	Zeytinburnu	37.515	0,603
+Armağanevler	Ümraniye	37.444	1,113
+Çakmak	Ümraniye	37.323	0,86
+Fevzi Çakmak	Pendik	36.918	1,833
+Tevfikbey	Küçükçekmece	36.848	1,466
+Sümer	Zeytinburnu	36.848	0,658
+Çınar	Bağcılar	36.588	0,552
+Pınar	Esenyurt	36.477	0,683
+Velibaba	Pendik	36.461	3,375
+Cumhuriyet	Üsküdar	36.237	0,857
+Mehterçeşme	Esenyurt	36.090	0,586
+Kazım Karabekir	Esenler	35.790	0,424
+Fevzi Çakmak	Bağcılar	35.448	0,736
+Cevizli	Maltepe	35.382	2,178
+Ayazağa	Sarıyer	35.317	17,234
+Göztepe	Kadıköy	35.260	1,782
+Yenimahalle	Bağcılar	34.907	0,776
+Gazi	Sultangazi	34.762	0,875
+Kemalpaşa	Bağcılar	34.581	0,568
+Güzeltepe	Eyüp	34.564	9,506
+Yavuztürk	Üsküdar	34.355	1,709
+Havaalanı	Esenler	34.313	0,625
+Kozyatağı	Kadıköy	34.164	1,442
+Ünalan	Üsküdar	34.162	1,497
+Şahintepe	Başakşehir	34.138	11,576
+Muratpaşa	Bayrampaşa	33.908	0,807
+Fevzi Çakmak	Esenler	33.610	0,489
+Güzelyalı	Pendik	33.575	1,694
+Çobançeşme	Bahçelievler	33.552	1,269
+Tuna	Esenler	33.398	0,725
+Söğütlü Çeşme	Küçükçekmece	33.233	0,982
+Anadolu	Arnavutköy	33.177	1,536
+Merdivenköy	Kadıköy	33.166	1,678
+Talatpaşa	Kağıthane	33.039	1,089
+Yeşilova	Küçükçekmece	33.002	0,578
+Menderes	Esenler	32.987	0,442
+Çeliktepe	Kağıthane	32.935	0,516
+75. Yıl	Sultangazi	32.605	0,981
+Zübeyde Hanım	Sultangazi	32.238	3,468
+Battalgazi	Sultanbeyli	31.820	3,131
+Yeşilkent	Esenyurt	31.751	1,112
+Abdurrahmangazi	Sancaktepe	31.716	3,919
+Esenler	Pendik	31.553	1,062
+Çamçeşme	Pendik	31.480	1,167
+Bostancı	Kadıköy	31.450	1,78
+Mehmet Akif	Çekmeköy	31.401	0,856
+Atalar	Kartal	31.275	1,12
+Erenköy	Kadıköy	31.098	1,351
+Karlıktepe	Kartal	31.049	1,357
+Sahrayıcedit	Kadıköy	30.833	1,358
+Kurtköy	Pendik	30.775	1,874
+Bulgurlu	Üsküdar	30.753	0,892
+Acıbadem	Kadıköy	30.549	1,456
+Altıntepe	Maltepe	30.375	1,005
+19 Mayıs	Kadıköy	30.310	1,336
+Altayçeşme	Maltepe	30.255	1,339
+Gültepe	Küçükçekmece	30.092	0,669
+Çağlayan	Kağıthane	30.047	0,913
+Gürsel	Kağıthane	30.033	0,848
+Cennet	Küçükçekmece	29.995	0,908
+Orhantepe	Kartal	29.960	2,897
+Osmangazi	Esenyurt	29.605	3,658
+İnkılap	Ümraniye	29.569	2,047
+Hamidiye	Çekmeköy	29.311	1,49
+Abdurrahmangazi	Sultanbeyli	29.276	1,878
+Ahmet Yesevi	Sultanbeyli	29.261	1,297
+Çırpıcı	Zeytinburnu	29.022	0,384
+Namık Kemal	Ümraniye	28.849	0,805
+Bağlarbaşı	Gaziosmanpaşa	28.843	0,643
+Süleymaniye	Esenyurt	28.839	0,534
+Yavuz Selim	Bağcılar	28.833	0,642
+Petrol İş	Kartal	28.760	1,093
+Hürriyet	Gaziosmanpaşa	28.739	0,465
+Kazım Karabekir	Bağcılar	28.688	0,5
+Atatürk	Sancaktepe	28.687	0,962
+Çırçır	Eyüp	28.537	1,046
+Bağlarçeşme	Esenyurt	28.514	0,605
+Birlik	Esenler	28.455	0,611
+Altıntepsi	Bayrampaşa	28.293	1,271
+Şifa	Tuzla	28.263	1,91
+Altınşehir	Ümraniye	28.231	0,844
+Şenlikköy	Bakırköy	28.206	3,051
+Çınar	Esenyurt	28.093	0,541
+Orhangazi	Pendik	28.009	0,819
+Fatih	Sancaktepe	27.938	3,509
+Veliefendi	Zeytinburnu	27.737	0,402
+Kavaklı	Beylikdüzü	27.566	5,193
+Mehmet Akif	Sultanbeyli	27.515	2,197
+Nuripaşa	Zeytinburnu	27.283	0,344
+Cevizli	Kartal	27.267	1,682
+Hamidiye	Sultanbeyli	27.189	1,285
+Necip Fazıl	Ümraniye	27.002	1,622
+Karadolap	Eyüp	26.979	1,101
+Esenevler	Ümraniye	26.864	0,639
+Esentepe	Kartal	26.844	2,549
+Yayla	Tuzla	26.839	2,106
+Balıkyolu	Esenyurt	26.828	0,547
+Seyyid Ömer	Fatih	26.773	0,469
+Ahmet Yesevi	Pendik	26.717	1,39
+Soğanlık Yeni	Kartal	26.713	1,758
+Marmara	Beylikdüzü	26.537	5,54
+Gümüşpınar	Kartal	26.464	1,166
+Fevzi Çakmak	Bahçelievler	26.191	0,529
+Talatpaşa	Esenyurt	26.077	0,493
+Site	Ümraniye	25.779	0,778
+Nurtepe	Kağıthane	25.628	0,774
+Meclis	Sancaktepe	25.603	1,005
+Yıldıztabya	Gaziosmanpaşa	25.602	0,7
+Dumlupınar	Pendik	25.596	1,422
+İncirtepe	Esenyurt	25.506	0,384
+Üçevler	Esenyurt	25.490	0,445
+Fatih	Esenyurt	25.282	0,538
+Fevzi Çakmak	Küçükçekmece	25.229	0,723
+Hürriyet	Bağcılar	25.196	0,583
+Sarıgöl	Gaziosmanpaşa	25.095	0,606
+Mehmet Akif	Ümraniye	24.911	0,74
+Akşemsettin	Fatih	24.856	0,44
+Hürriyet	Esenyurt	24.769	0,531
+Acıbadem	Üsküdar	24.747	1,633
+Atatürk	Ümraniye	24.740	0,758
+İnönü	Bağcılar	24.735	0,499
+Hırka-İ Şerif	Fatih	24.649	0,435
+Mahmutbey	Bağcılar	24.596	4,708
+Bahçeşehir 1. Kısım	Başakşehir	24.548	8,318
+Feneryolu	Kadıköy	24.488	1,014
+İnönü	Esenyurt	24.472	0,492
+Ataköy 7-8-9-10. Kısım	Bakırköy	24.444	2,051
+Şemsipaşa	Gaziosmanpaşa	24.409	0,355
+Emek	Sancaktepe	24.340	1,836
+Mimar Sinan	Tuzla	24.236	1,348
+Osmaniye	Bakırköy	24.126	2,392
+Seyitnizam	Zeytinburnu	24.113	1,244
+Mimar Sinan	Çekmeköy	24.057	2,188
+Turgut Özal	Esenyurt	24.050	0,648
+Aydıntepe	Tuzla	23.998	2,878
+Caferağa	Kadıköy	23.977	1,242
+Beştelsiz	Zeytinburnu	23.926	0,579
+Mevlana	Gaziosmanpaşa	23.816	0,984
+Yeşilköy	Bakırköy	23.785	13,226
+Merkezefendi	Zeytinburnu	23.742	1,362
+Sülüntepe	Pendik	23.741	1,401
+Piyalepaşa	Beyoğlu	23.469	0,493
+Gülbahar	Şişli	23.271	0,417
+Yenigün	Bağcılar	23.112	0,272
+Ortabayır	Kağıthane	22.994	0,373
+Mecidiye	Sultanbeyli	22.972	1,631
+Mehmet Akif Ersoy	Esenyurt	22.844	0,552
+İnönü	Sancaktepe	22.817	0,607
+Fevzi Çakmak	Gaziosmanpaşa	22.748	0,604
+Abdurrahman Nafiz Gürman	Güngören	22.696	0,722
+Selahaddin Eyyubi	Esenyurt	22.624	2,632
+Seyrantepe	Kağıthane	22.545	1,109
+Firuzköy	Avcılar	22.496	12,503
+Suadiye	Kadıköy	22.484	1,484
+Çamlık	Ümraniye	22.420	1,166
+Kavacık	Beykoz	22.371	1,614
+Elmalıkent	Ümraniye	22.176	1,223
+Cemil Meriç	Ümraniye	22.094	1,632
+Şehremini	Fatih	22.028	0,462
+Kemer	Esenler	22.007	0,757
+Harmantepe	Kağıthane	22.007	0,292
+İdealtepe	Maltepe	21.982	1,269
+Barbaros	Bağcılar	21.929	0,438
+Koca Mustafapaşa	Fatih	21.851	0,497
+Saadetdere	Esenyurt	21.850	0,347
+Şirintepe	Kağıthane	21.823	0,377
+Sarıgazi	Sancaktepe	21.755	1,228
+Esenkent	Maltepe	21.745	1,204
+Yeşiltepe	Zeytinburnu	21.679	0,224
+Cumhuriyet	Beylikdüzü	21.674	1,206
+Başıbüyük	Maltepe	21.640	10,172
+Üniversite	Avcılar	21.621	2,837
+Cumhuriyet	Kartal	21.609	1,479
+Hadımköy	Arnavutköy	21.598	10,063
+Fatih	Sultanbeyli	21.541	1,372
+Valide-İ Atik	Üsküdar	21.519	0,424
+Kocatepe	Bayrampaşa	21.448	1,73
+Namık Kemal	Esenyurt	21.366	0,556
+Haznedar	Güngören	21.298	0,361
+Bahçelievler	Üsküdar	21.240	1,605
+Fatih	Pendik	21.209	0,656
+Atakent	Ümraniye	21.146	0,962
+Ziya Gökalp	Başakşehir	21.113	7,352
+Çubuklu	Beykoz	21.051	2,346
+Akıncılar	Güngören	21.045	0,257
+Barbaros Hayrettin Paşa	Esenyurt	21.017	1,086
+Zuhuratbaba	Bakırköy	20.966	1,846
+Yenikent	Esenyurt	20.962	0,45
+Mehmet Akif Ersoy	Üsküdar	20.960	1,073
+Akpınar	Sancaktepe	20.949	2,029
+Adil	Sultanbeyli	20.853	1,915
+Büyükşehir	Beylikdüzü	20.795	0,959
+Yunus Emre	Sancaktepe	20.761	1,22
+Çamlık	Çekmeköy	20.672	0,928
+Hürriyet	Büyükçekmece	20.603	6,853
+Ferah	Üsküdar	20.482	1,068
+Mevlanakapı	Fatih	20.470	0,47
+Yukarı Dudullu	Ümraniye	20.295	1,785
+Mecidiyeköy	Şişli	20.219	0,455
+Hürriyet	Kağıthane	20.219	0,453
+Turgut Reis	Sultanbeyli	20.178	1,067
+Yenidoğan	Sancaktepe	20.155	1,042
+Aydınevler	Maltepe	20.099	1,418
+Tatlısu	Ümraniye	20.041	1,02
+Esentepe	Eyüp	19.987	0,429
+Gökalp	Zeytinburnu	19.959	0,287
+Esenkent	Ümraniye	19.953	1,661
+İstasyon	Tuzla	19.935	4,971
+Çınar	Maltepe	19.848	1,011
+Kaptanpaşa	Beyoğlu	19.818	0,411
+Kısıklı	Üsküdar	19.659	1,515
+Küçüksu	Üsküdar	19.655	1,616
+Postane	Tuzla	19.574	6,322
+Gürpınar	Beylikdüzü	19.557	2,527
+Veysel Karani	Sancaktepe	19.545	3,084
+Sancaktepe	Bağcılar	19.528	0,396
+Karlıtepe	Gaziosmanpaşa	19.517	0,328
+Yavuz Selim	Sultanbeyli	19.506	1,797
+Kemal Türkler	Sancaktepe	19.404	0,767
+Fatih	Büyükçekmece	19.379	1,972
+Akçaburgaz	Esenyurt	19.365	6,32
+Esenşehir	Ümraniye	19.317	1,011
+Cevatpaşa	Bayrampaşa	19.093	0,589
+Tozkoparan	Güngören	19.086	0,843
+Feyzullah	Maltepe	19.052	0,815
+Mahmut Şevket Paşa	Şişli	18.977	0,334
+Eyüp Sultan	Sancaktepe	18.918	6,218
+Zekeriyaköy	Sarıyer	18.867	11,665
+İslambey	Arnavutköy	18.832	1,579
+Orta	Kartal	18.790	1,057
+Yunus Emre	Esenyurt	18.739	0,492
+Atatürk	Büyükçekmece	18.711	1,239
+Paşa	Şişli	18.698	0,757
+Yenidoğan	Bayrampaşa	18.696	0,818
+Arnavutköy Merkez	Arnavutköy	18.695	6,748
+Derviş Ali	Fatih	18.632	0,365
+Örnek	Esenyurt	18.499	0,481
+Çınardere	Pendik	18.465	1,161
+Düğmeciler	Eyüp	18.435	0,475
+Pınartepe	Büyükçekmece	18.425	3,714
+Safa	Sancaktepe	18.424	0,852
+Mimaroba	Büyükçekmece	18.376	1,358
+Caddebostan	Kadıköy	18.316	1,663
+Molla Gürani	Fatih	18.296	0,445
+Yavuz Sultan Selim	Fatih	18.294	0,35
+Merve	Sancaktepe	18.226	1,061
+Mimar Sinan	Sultanbeyli	18.158	2,969
+Barbaros	Üsküdar	18.139	1,445
+İncirköy	Beykoz	18.130	1,974
+İstiklal	Esenyurt	18.108	0,44
+Tarabya	Sarıyer	18.103	2,536
+Güven	Güngören	18.004	0,315
+Reşitpaşa	Sarıyer	17.903	2,959
+Ayvansaray	Fatih	17.777	0,622
+Yahya Kemal	Kağıthane	17.746	0,343
+Fenerbahçe	Kadıköy	17.657	1,691
+Adem Yavuz	Ümraniye	17.630	0,767
+Küplüce	Üsküdar	17.542	0,857
+Hasanpaşa	Sultanbeyli	17.450	1,079
+Yedikule	Fatih	17.399	0,78
+Fulya	Şişli	17.327	0,675
+Sultaniye	Esenyurt	17.294	0,539
+Kazım Karabekir	Ümraniye	17.257	0,813
+Necip Fazıl Kısakürek	Esenyurt	17.161	0,336
+İcadiye	Üsküdar	17.160	0,502
+Sümbül Efendi	Fatih	17.016	0,32
+Halide Edip Adıvar	Şişli	17.012	0,354
+Burhaniye	Üsküdar	16.929	1,534
+Dikilitaş	Beşiktaş	16.893	0,638
+Silivrikapı	Fatih	16.823	0,311
+Davutpaşa	Esenler	16.727	0,209
+Şeyhli	Pendik	16.720	1,302
+İskenderpaşa	Fatih	16.686	0,422
+Aydınlar	Çekmeköy	16.681	0,651
+Namık Kemal	Esenler	16.334	0,235
+Ihlamurkuyu	Ümraniye	16.308	1,373
+Yakacık Çarşı	Kartal	16.305	3,981
+Yakacık Yeni	Kartal	16.238	7,834
+Nişancı	Eyüp	16.191	0,658
+Girne	Maltepe	16.172	0,768
+İstinye	Sarıyer	16.089	1,241
+Yunus Emre	Arnavutköy	16.085	1,078
+Doğu	Pendik	16.043	1,178
+Çamlık	Pendik	15.987	3,23
+Aşık Veysel	Esenyurt	15.953	0,838
+Necip Fazıl	Sultanbeyli	15.937	3,224
+Şehitler	Esenyurt	15.915	0,284
+Mevlana	Sancaktepe	15.823	1,42
+Fatih Sultan Mehmet	Sarıyer	15.813	0,991
+Orhangazi	Sultanbeyli	15.748	1,044
+Ulus	Büyükçekmece	15.732	4,662
+Terazidere	Bayrampaşa	15.723	0,491
+Kuştepe	Şişli	15.710	0,41
+Piripaşa	Beyoğlu	15.706	0,497
+Bağlar	Bağcılar	15.683	1,373
+Murat Çesme	Büyükçekmece	15.632	2,431
+Battalgazi	Esenyurt	15.621	0,564
+Hasanpaşa	Kadıköy	15.577	0,809
+Batı	Pendik	15.521	1,236
+Fetihtepe	Beyoğlu	15.490	0,328
+Yeniköy	Sarıyer	15.481	2,155
+Sultançiftliği	Çekmeköy	15.472	1,782
+Tokatköy	Beykoz	15.449	3,995
+Gülensu	Maltepe	15.441	0,902
+Hacıahmet	Beyoğlu	15.383	0,336
+Parseller	Ümraniye	15.373	1,002
+Konaklar	Beşiktaş	15.350	2,435
+İslambey	Eyüp	15.321	0,54
+Gülsuyu	Maltepe	15.288	0,906
+Yeni	Pendik	15.263	0,77
+Yunus	Kartal	15.215	1,362
+Ferahevler	Sarıyer	15.183	1,282
+Atikali	Fatih	15.133	0,226
+Topağacı	Ümraniye	14.977	1,312
+Ortamahalle	Bayrampaşa	14.929	0,833
+Altınşehir	Başakşehir	14.859	1,362
+Cumhuriyet	Sultangazi	14.819	0,736
+Sinanoba	Büyükçekmece	14.778	1,58
+Zeyrek	Fatih	14.769	0,313
+Kemalpaşa	Küçükçekmece	14.667	0,323
+Rami Cuma	Eyüp	14.651	0,232
+Feriköy	Şişli	14.630	0,238
+İsmet Paşa	Bayrampaşa	14.605	0,51
+Ertuğrul Gazi	Pendik	14.532	2,44
+Gayrettepe	Beşiktaş	14.530	0,598
+Keçeci Piri	Beyoğlu	14.386	0,385
+Cumhuriyet	Esenyurt	14.369	0,348
+Madenler	Ümraniye	14.327	0,918
+Çengelköy	Üsküdar	14.298	1,661
+Çavuşoğlu	Kartal	14.286	1,372
+Rasimpaşa	Kadıköy	14.276	0,834
+Gümüşsuyu	Beykoz	14.232	2,464
+Yamanevler	Ümraniye	14.190	0,729
+Muratreis	Üsküdar	14.161	0,375
+Esenyalı	Pendik	14.088	0,481
+Rami Yeni	Eyüp	13.904	0,51
+Altunizade	Üsküdar	13.886	1,773
+Güllü Bağlar	Pendik	13.852	1,233
+Gültepe	Kağıthane	13.810	0,189
+Balat	Fatih	13.802	0,406
+Sultan Murat	Küçükçekmece	13.776	0,258
+Ataköy 2-5-6. Kısım	Bakırköy	13.671	1,23
+Mevlana	Esenyurt	13.636	0,868
+Tepeüstü	Ümraniye	13.593	0,427
+Güzeltepe	Üsküdar	13.438	1,016
+Eğitim	Kadıköy	13.438	0,958
+Sanayi	Güngören	13.369	0,701
+Malkoçoğlu	Sultangazi	13.328	0,672
+Kirazlıtepe	Üsküdar	13.296	0,698
+Halıcıoğlu	Beyoğlu	13.274	0,399
+Selami Ali	Üsküdar	13.245	0,447
+Maden	Sarıyer	13.207	3,992
+Türkoba	Büyükçekmece	13.189	11,53
+Mimar Sinan	Esenler	13.092	0,173
+Atatürk	Esenyurt	13.077	1,581
+Dumlupınar	Ümraniye	13.076	1,042
+Yalı	Maltepe	12.893	2,309
+Merkez	Sarıyer	12.750	1,377
+Cumhuriyet	Çekmeköy	12.709	0,47
+Mehmet Akif Ersoy	Kağıthane	12.672	0,579
+Pazariçi	Gaziosmanpaşa	12.622	0,292
+Aşağı Dudullu	Ümraniye	12.611	0,987
+Mustafa Kemal Paşa	Arnavutköy	12.585	1,307
+Akşemsettin	Sultanbeyli	12.581	1,259
+Zeynep Kamil	Üsküdar	12.559	0,371
+Sütlüce	Beyoğlu	12.474	0,678
+Nisbetiye	Beşiktaş	12.435	1,023
+Bahçelievler	Pendik	12.417	0,782
+Topselvi	Kartal	12.201	0,775
+Kartaltepe	Küçükçekmece	12.166	0,84
+Eskişehir	Şişli	12.164	0,184
+Mimar Sinan	Üsküdar	12.077	0,507
+Ekinoba	Büyükçekmece	12.040	1,245
+Etiler	Beşiktaş	12.023	1,22
+Huzur	Ümraniye	12.001	0,607
+Yeşilce	Kağıthane	11.934	0,382
+Zafer	Esenyurt	11.807	1,646
+Yayalar	Pendik	11.782	1,485
+Telsizler	Kağıthane	11.774	0,229
+Aksaray	Fatih	11.758	0,968
+Dereağzı	Beylikdüzü	11.644	6,598
+Karagümrük	Fatih	11.640	0,356
+Pınar	Sarıyer	11.628	0,76
+Çiğdem	Beykoz	11.619	0,886
+Teşvikiye	Şişli	11.522	0,453
+Yayla	Şişli	11.475	0,246
+Yalı	Kartal	11.471	0,528
+19 Mayıs	Şişli	11.458	0,437
+Sultantepe	Üsküdar	11.452	0,518
+Topkapı	Fatih	11.429	0,638
+Piri Reis	Esenyurt	11.389	0,767
+Haseki Sultan	Fatih	11.377	0,292
+Kordonboyu	Kartal	11.356	1,865
+Sapan Bağları	Pendik	11.264	0,497
+Ali Kuşçu	Fatih	11.253	0,31
+Cumhuriyet	Sarıyer	11.247	1,154
+Yavuz Selim	Arnavutköy	11.217	2,055
+Soğuksu	Beykoz	11.133	0,936
+Dumlupınar	Kadıköy	10.985	0,776
+Bozkurt	Şişli	10.930	0,18
+Küçük Çamlıca	Üsküdar	10.917	2,436
+Yenidoğan	Zeytinburnu	10.884	0,156
+Evliya Çelebi	Tuzla	10.861	3,101
+Rumeli Hisarı	Sarıyer	10.785	0,94
+Mecidiye	Beşiktaş	10.766	0,49
+Örnektepe	Beyoğlu	10.556	0,552
+Fatih	Küçükçekmece	10.544	1,484
+İçmeler	Tuzla	10.467	0,912
+Orhan Gazi	Esenyurt	10.461	3,562
+Yarımburgaz	Küçükçekmece	10.461	5,238
+Orta	Tuzla	10.387	3,702
+Türkali	Beşiktaş	10.346	0,235
+Akevler	Esenyurt	10.294	0,517
+Nişantepe	Çekmeköy	10.236	4,241
+Mehmet Nesih Özmen	Güngören	10.184	0,968
+Esenkent	Esenyurt	10.183	0,776
+Kadımehmet Efendi	Beyoğlu	10.172	0,14
+İmrahor	Arnavutköy	10.052	31,933
+Göztepe	Beykoz	10.016	2,617
+Vatan	Bayrampaşa	10.015	0,227
+Tantavi	Ümraniye	10.002	0,547
+Sakarya	Eyüp	9.966	0,443
+Boğazköy İstiklal	Arnavutköy	9.925	29,439
+Kulaksız	Beyoğlu	9.706	0,234
+Alibeyköy	Eyüp	9.569	0,919
+Ortaköy	Beşiktaş	9.556	0,968
+Salacak	Üsküdar	9.545	0,435
+Ahmediye	Üsküdar	9.520	0,225
+Darüşşafaka	Sarıyer	9.458	1,432
+Emniyettepe	Eyüp	9.397	0,739
+Küçük Piyale	Beyoğlu	9.312	0,2
+Silahtarağa	Eyüp	9.263	0,303
+Cerrahpaşa	Fatih	9.147	0,831
+Fikirtepe	Kadıköy	9.025	0,533
+Emirgan	Sarıyer	8.954	1,32
+Kirazlıdere	Çekmeköy	8.925	1,806
+Aziz Mahmut Hüdayi	Üsküdar	8.880	0,341
+Yenidoğan	Gaziosmanpaşa	8.878	0,322
+Büyükdere	Sarıyer	8.841	1,19
+Mimar Sinan Merkez	Büyükçekmece	8.814	2,538
+Selimiye	Üsküdar	8.658	1,703
+Çavuş	Şile	8.576	5,139
+Hekimbaşı	Ümraniye	8.495	1,648
+Osmanağa	Kadıköy	8.466	0,54
+Şerifali	Ümraniye	8.460	1,231
+Emniyet Evleri	Kağıthane	8.390	0,19
+Çatalmeşe	Çekmeköy	8.360	5,627
+Nenehatun	Arnavutköy	8.344	1,235
+19 Mayıs	Büyükçekmece	8.337	7,531
+Karlıbayır	Arnavutköy	8.308	1,28
+Haraççı	Arnavutköy	8.297	8,697
+Güngören	Çekmeköy	8.228	0,782
+Hastane	Arnavutköy	8.205	5,673
+Kazım Karabekir Paşa	Sarıyer	8.201	5,262
+Uskumruköy	Sarıyer	8.178	15,929
+Ataköy 3-4-11. Kısım	Bakırköy	8.150	0,645
+Yukarı	Kartal	8.143	0,328
+Sakızağacı	Bakırköy	8.137	0,383
+Duatepe	Şişli	8.096	0,138
+Zühtüpaşa	Kadıköy	8.095	0,664
+Maslak	Sarıyer	8.091	4,975
+Yayla	Sultangazi	8.076	4,758
+Ortaçeşme	Beykoz	8.065	0,826
+Cibali	Fatih	8.057	0,278
+İzzet Paşa	Şişli	8.044	0,176
+Rüzgarlıbahçe	Beykoz	8.011	3,436
+Huzur	Sarıyer	7.948	2,394
+Soğukpınar	Çekmeköy	7.939	0,618
+Harmandere	Pendik	7.925	1,267
+Meşrutiyet	Şişli	7.922	0,3
+Koşuyolu	Kadıköy	7.839	0,699
+Yeşilyurt	Bakırköy	7.816	0,691
+Büyükbakkalköy	Maltepe	7.779	21,661
+Atatürk	Arnavutköy	7.726	0,646
+Cumhuriyet	Büyükçekmece	7.553	2,364
+Mavigöl	Arnavutköy	7.412	1,55
+Taşdelen	Çekmeköy	7.411	1,052
+Acarlar	Beykoz	7.319	5,439
+Cumhuriyet	Şişli	7.255	0,364
+Ulus	Beşiktaş	7.159	0,502
+Ekşioğlu	Çekmeköy	7.110	1,248
+Esentepe	Şişli	7.056	1,562
+Kireçburnu	Sarıyer	7.049	0,646
+Dizdariye	Büyükçekmece	6.987	0,585
+Bolluca	Arnavutköy	6.984	11,992
+Yenimahalle	Bakırköy	6.953	0,233
+Nişanca	Fatih	6.866	0,208
+Kumburgaz	Büyükçekmece	6.850	4,004
+Güzelce	Büyükçekmece	6.836	5,993
+Ömerli	Arnavutköy	6.818	10,753
+Kamiloba	Büyükçekmece	6.800	14,128
+Vişnezade	Beşiktaş	6.758	0,66
+Poligon	Sarıyer	6.704	0,909
+Tepeören	Tuzla	6.673	25,726
+Alemdağ	Çekmeköy	6.527	4,148
+Akşemseddin	Esenyurt	6.519	0,719
+Çamlıbahçe	Beykoz	6.405	0,501
+Yeşilbağlar	Pendik	6.262	0,366
+Yıldız	Beşiktaş	6.232	1,114
+Levazım	Beşiktaş	6.142	0,757
+Çamlıtepe	Sarıyer	6.119	1,456
+Basınköy	Bakırköy	5.932	1,499
+Orta	Pendik	5.909	0,314
+Bebek	Beşiktaş	5.891	1,208
+Yenişehir	Beyoğlu	5.823	0,105
+Beylerbeyi	Üsküdar	5.749	1,148
+Celaliye	Büyükçekmece	5.484	13,375
+Yalıköy	Beykoz	5.471	1,012
+Hilal	Sancaktepe	5.458	2,41
+Ptt Evleri	Sarıyer	5.405	4,452
+Zeytinlik	Bakırköy	5.376	0,289
+Cevizlik	Bakırköy	5.363	0,187
+Çiftlik	Beykoz	5.358	4,086
+Abbasağa	Beşiktaş	5.288	0,144
+Cami	Tuzla	5.260	1,276
+Tayakadın	Arnavutköy	5.242	50,484
+Baltalimanı	Sarıyer	5.181	1,003
+Mithatpaşa	Eyüp	5.179	47,112
+Koza	Esenyurt	5.159	1,375
+Çakmaklı	Büyükçekmece	5.137	5,443
+Çayırbaşı	Sarıyer	5.089	0,479
+Yavuz Selim	Beykoz	5.072	13,547
+Muradiye	Beşiktaş	5.048	0,081
+Çengeldere	Beykoz	5.005	4,82
+Kültür	Beşiktaş	4.925	0,722
+Mimar Sinan	Eyüp	4.882	16,538
+Deliklikaya	Arnavutköy	4.857	5,737
+Defterdar	Eyüp	4.709	0,94
+Topçular	Eyüp	4.673	1,657
+Alkent 2000	Büyükçekmece	4.635	6,52
+Mescit	Tuzla	4.612	4,294
+Halil Rıfat Paşa	Şişli	4.566	0,429
+Rumelifeneri	Sarıyer	4.550	12,65
+Kocataş	Sarıyer	4.500	1,993
+İstiklal	Beyoğlu	4.481	0,257
+Sahil	Beylikdüzü	4.443	1,536
+Sururi Mehmet Efendi	Beyoğlu	4.388	0,106
+Kuzguncuk	Üsküdar	4.358	1,504
+Fatih	Beykoz	4.342	3,605
+Kanlıca	Beykoz	4.242	1,319
+Gümüşdere	Sarıyer	4.193	9,352
+Beşyol	Küçükçekmece	4.092	0,296
+Ömerli	Çekmeköy	4.073	46,118
+Firuzağa	Beyoğlu	4.046	0,102
+İnönü	Şişli	4.019	0,184
+Örnekköy	Beykoz	3.982	3,675
+Fatih Sultan Mehmet	Ümraniye	3.976	4,163
+Arnavutköy	Beşiktaş	3.933	0,449
+Cihannüma	Beşiktaş	3.898	0,279
+Paşabahçe	Beykoz	3.894	0,572
+Balmumcu	Beşiktaş	3.889	0,647
+Bülbül	Beyoğlu	3.883	0,094
+Bahçeköy Merkez	Sarıyer	3.868	1,473
+Yavuz Selim	Esenler	3.839	0,241
+Rumeli Kavağı	Sarıyer	3.765	4,583
+Yahya Kahya	Beyoğlu	3.733	0,086
+Pirinççi	Eyüp	3.561	26,846
+Cihangir	Beyoğlu	3.482	0,112
+Yeni	Sarıyer	3.442	0,588
+Bahçelievler	Büyükçekmece	3.428	7,171
+Sanayi	Pendik	3.414	13,582
+Balibey	Şile	3.398	5,457
+Kumköy	Sarıyer	3.331	3,69
+Kaptanpaşa	Şişli	3.312	0,31
+Levent	Beşiktaş	3.145	1,063
+Kalyoncu Kulluğu	Beyoğlu	3.108	0,049
+Hicret	Arnavutköy	3.086	0,978
+Kuruçeşme	Beşiktaş	3.082	0,903
+Katip Kasım	Fatih	3.069	0,169
+Baklacı	Beykoz	3.062	11,76
+Elmalı	Beykoz	2.989	4,362
+Ramazanoğlu	Pendik	2.930	2,26
+Camiikebir	Beyoğlu	2.854	0,423
+Göksu	Beykoz	2.830	0,735
+Çukur	Beyoğlu	2.735	0,053
+Akbaba	Beykoz	2.726	4,6
+Ergenekon	Şişli	2.684	0,103
+Tomtom	Beyoğlu	2.657	0,14
+Anadolu Hisarı	Beykoz	2.644	0,992
+Küçük Ayasofya	Fatih	2.594	0,253
+Maltepe	Zeytinburnu	2.592	3,098
+Muhsine Hatun	Fatih	2.576	0,127
+Çifte Havuzlar	Esenler	2.567	1,188
+Şehsuvar Bey	Fatih	2.557	0,152
+Sinanpaşa	Beşiktaş	2.534	0,173
+Karaağaç	Büyükçekmece	2.529	28,32
+Çatma Mescit	Beyoğlu	2.504	0,093
+Harbiye	Şişli	2.504	0,771
+Kılıçali Paşa	Beyoğlu	2.476	0,246
+Akfırat	Tuzla	2.471	26,141
+Bostan	Beyoğlu	2.468	0,062
+Saray	Ümraniye	2.307	1,792
+Kuleli	Üsküdar	2.280	0,729
+Riva	Beykoz	2.237	22,548
+Kocatepe	Beyoğlu	2.136	0,172
+Reşadiye	Çekmeköy	2.132	24,258
+Gümüşsuyu	Beyoğlu	2.109	0,339
+Anadolu Kavağı	Beykoz	2.104	5,244
+Ömer Avni	Beyoğlu	2.092	0,255
+Kazlıçeşme	Zeytinburnu	2.078	2,136
+Görele	Beykoz	2.020	3,305
+Yenimahalle	Büyükçekmece	1.986	1,551
+Cumhuriyet	Beykoz	1.966	10,59
+Cankurtaran	Fatih	1.909	0,88
+Orhanlı	Tuzla	1.903	5,232
+Pürtelaş Hasan Efendi	Beyoğlu	1.872	0,108
+Ahmetli	Şile	1.815	6,486
+Mahmutşevketpaşa	Beykoz	1.808	16,143
+Paşaköy	Sancaktepe	1.723	25,551
+Kandilli	Üsküdar	1.712	1,224
+Saraç İshak	Fatih	1.700	0,067
+Halaskargazi	Şişli	1.691	0,101
+Kalenderhane	Fatih	1.673	0,133
+Binbirdirek	Fatih	1.671	0,158
+Ataköy 1. Kısım	Bakırköy	1.667	0,636
+Meşrutiyet	Şile	1.636	3,241
+Karaburun	Arnavutköy	1.521	7,541
+Dereseki	Beykoz	1.513	8,613
+Şehit Muhtar	Beyoğlu	1.493	0,096
+Kuloğlu	Beyoğlu	1.463	0,106
+Yeniköy	Arnavutköy	1.397	17,802
+Hacımimi	Beyoğlu	1.368	0,092
+Koçullu	Çekmeköy	1.365	11,195
+Demirciköy	Sarıyer	1.306	11,177
+Molla Hüsrev	Fatih	1.301	0,089
+İshaklı	Beykoz	1.283	12,351
+Şamlar	Başakşehir	1.269	7,074
+Kurna	Pendik	1.244	31,103
+Ahmediye	Büyükçekmece	1.233	3,041
+Emin Sinan	Fatih	1.225	0,066
+Göçbeyli	Pendik	1.172	25,158
+Sazlıbosna	Arnavutköy	1.149	17,121
+Paşamandıra	Beykoz	1.055	12,068
+Fatih	Tuzla	1.045	2,769
+Çayırbaşı	Şile	994	4,069
+Zerzavatçı	Beykoz	980	3,522
+Hacı Kasım	Şile	944	0,23
+Terkos	Arnavutköy	935	15,098
+Poyrazköy	Beykoz	923	8,572
+Anadolu	Tuzla	905	1,358
+Mimar Hayrettin	Fatih	888	0,11
+Kamer Hatun	Beyoğlu	886	0,065
+Sırapınar	Çekmeköy	885	9,101
+Şahkulu	Beyoğlu	840	0,083
+Katipmustafa Çelebi	Beyoğlu	834	0,086
+Baklalı	Arnavutköy	825	17,456
+Durusu	Arnavutköy	792	0,352
+Sultan Ahmet	Fatih	783	0,204
+Hüseyinli	Çekmeköy	771	13,041
+Sahilköy	Şile	766	19,918
+Alibahadır	Beykoz	764	11,238
+Doğancılı	Şile	756	15,47
+Bedrettin	Beyoğlu	752	0,242
+Anadolufeneri	Beykoz	750	16,983
+Kumbaba	Şile	741	1,819
+Göçe	Şile	724	5,62
+Süleymaniye	Fatih	709	0,289
+Hoca Gıyasettin	Fatih	697	0,086
+Boyalık	Arnavutköy	674	27,151
+Ağaçlı	Eyüp	671	15,445
+Kaynarca	Beykoz	627	5,656
+Kemalpaşa	Fatih	618	0,18
+Yeşilbayır	Arnavutköy	600	14,181
+Geredeli	Şile	574	14,545
+Işıklar	Eyüp	569	10,776
+Yassıören	Arnavutköy	561	41,073
+Hacımaşlı	Arnavutköy	551	28,578
+Kılıçlı	Beykoz	545	16,371
+Kabakoz	Şile	522	18,726
+Müeyyetzade	Beyoğlu	518	0,073
+Alacalı	Şile	515	17,373
+Teke	Şile	499	35,933
+Kızılca	Şile	496	23,078
+Alemdar	Fatih	488	0,14
+Öğümce	Beykoz	477	10,627
+Bozhane	Beykoz	475	14,281
+Dursunköy	Arnavutköy	464	26,362
+Asmalı Mescit	Beyoğlu	463	0,086
+Değirmençayırı	Şile	455	8,94
+Kurtdoğmuş	Pendik	441	25,643
+Hacı Kadın	Fatih	414	0,102
+Balaban	Arnavutköy	413	29,849
+Yeniköy	Şile	412	22,073
+Mimar Kemalettin	Fatih	411	0,147
+Bereketzade	Beyoğlu	405	0,073
+Ballıca	Pendik	400	22,728
+Garipçe	Sarıyer	393	3,917
+Akçakese	Şile	388	7,611
+Polonezköy	Beykoz	377	29,445
+Hüseyinağa	Beyoğlu	368	0,064
+Hocapaşa	Fatih	360	0,306
+Satmazlı	Şile	355	8,287
+Üvezli	Şile	337	15,957
+Oruçoğlu	Şile	334	21,919
+Kısırkaya	Sarıyer	333	10,167
+Karamandere	Şile	324	11,507
+Göksu	Şile	306	22,836
+Bucaklı	Şile	305	15,908
+Karakiraz	Şile	289	20,81
+Evliya Çelebi	Beyoğlu	283	0,064
+Kervansaray	Şile	278	38,496
+Sofular	Şile	272	15,837
+Karacaköy	Şile	269	7,755
+Bıçkıdere	Şile	265	9,661
+İmrendere	Şile	264	10,112
+İmrenli	Şile	260	8,732
+Osmanköy	Şile	257	10,802
+Emirli	Pendik	256	12,256
+Yavuz Sinan	Fatih	252	0,051
+Kurfallı	Şile	247	4,767
+Göllü	Beykoz	243	14,665
+Demirtaş	Fatih	242	0,085
+Hacıllı	Şile	241	15,121
+Şuayipli	Şile	231	10,449
+Yazımanayır	Şile	221	13,304
+Kalem	Şile	219	19,553
+Çataklı	Şile	216	17,969
+Hasanlı	Şile	215	11,849
+Kömürlük	Şile	211	11,172
+Yaka	Şile	208	19,69
+Karabeyli	Şile	207	12,15
+Mesihpaşa	Fatih	206	0,078
+Korucu	Şile	205	8,458
+Ulupelit	Şile	202	14,175
+Odayeri	Eyüp	195	8,255
+Soğullu	Şile	189	17,378
+Gökmaşlı	Şile	188	5,198
+Çengilli	Şile	185	12,308
+İhsaniye	Eyüp	160	4,959
+Kadıköy	Şile	159	3,335
+Çiftalan	Eyüp	149	18,397
+Ovacık	Şile	148	8,072
+Yeşilvadi	Şile	146	16,12
+Kurna	Şile	146	13,23
+Balabanağa	Fatih	146	0,114
+Çelebi	Şile	144	8,051
+Molla Fenari	Fatih	135	0,15
+Taya Hatun	Fatih	131	0,051
+Avcıkoru	Şile	130	20,133
+Kemankeş Karamustafapaşa	Beyoğlu	128	0,144
+İsaköy	Şile	122	4,384
+Erenler	Şile	121	11,05
+Emekyemez	Beyoğlu	121	0,062
+Beyazıt	Fatih	114	0,111
+Sortullu	Şile	113	6,637
+Darlık	Şile	104	17,735
+Bozgoca	Şile	92	4,085
+Arap Cami	Beyoğlu	91	0,156
+Ağaçdere	Şile	90	6,525
+Hobyar	Fatih	82	0,201
+Esenceli	Şile	74	15,159
+Yaylalı	Şile	58	7,659
+Mercan	Fatih	48	0,083
+Sururi	Fatih	30	0,063
+Rüstempaşa	Fatih	25	0,103
+Tahtakale	Fatih	24	0,047
+Sarıdemir	Fatih	14	0,106
