@@ -254,6 +254,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 }, selector);
                 //button to wait for clicking image
                 let allImageUrlData = <any>[];
+                // No images found for this restaurant.TimeoutError: Waiting for selector `div[jscontroller="U0Base"] img[jsaction="rcuQ6b:trigger.M8vzZb;"]` failed: Waiting failed: 6000ms exceeded
                 
                 try {
                   await page.waitForSelector('button[jscontroller="PEXgde"]', {timeout: 20000});
@@ -279,7 +280,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 try {
                   await page.waitForSelector(
                     'div[jscontroller="U0Base"] img[jsaction="rcuQ6b:trigger.M8vzZb;"]',
-                    { timeout: 6000 }
+                    { timeout: 20000 }
                   );
                   const startTime = Date.now();
                   console.log("start time" + startTime);
