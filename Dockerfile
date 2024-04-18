@@ -34,6 +34,7 @@ RUN x11vnc -storepasswd 1234 ~/.vnc/passwd
 COPY entrypoint.sh /entrypoint.sh
 EXPOSE 5900
 EXPOSE 8083
+EXPOSE 9222
 ENTRYPOINT ["/entrypoint.sh"]
 
 # start application xvfb-run     emulate the display

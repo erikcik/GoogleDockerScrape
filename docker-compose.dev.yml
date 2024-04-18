@@ -8,6 +8,7 @@ services:
       - "8080:8080"
       - "5900:5900"
       - "8083:8083"
+      - "9222:9222"
     environment:
       - NODE_ENV=production
     entrypoint: ./entrypoint.sh

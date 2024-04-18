@@ -61,7 +61,7 @@ const IstanbulArray = [
 const filePath = path.join(__dirname, "allPlaces.txt");
 const fileContent = fs.readFileSync(filePath, "utf8");
 const lines = fileContent.split("\n");
-const firstWordArray = lines.splice(300).map((item) => {
+const firstWordArray = lines.splice(305).map((item) => {
   const fields = item.split(/\s+/);
   if (IstanbulArray.includes(fields[1])) {
     return `${fields[0]} ${fields[1]}`;
@@ -82,13 +82,16 @@ const firstWordArray = lines.splice(300).map((item) => {
 console.log("HOW MANY CITIES: " + firstWordArray.length);
 puppeteerExtra.use(stealthPlugin());
 
-
 webSocketServer.on("connection", (ws: WebSocket) => {
   async function getAllResults() {
     const browser = await puppeteerExtra.launch({
       headless: false,
-      executablePath: "/usr/bin/google-chrome-stable",
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      // executablePath: "/usr/bin/google-chrome-stable",
+      args: [
+        "--remote-debugging-port=9222",
+        "--remote-debugging-address=0.0.0.0",
+        "--no-sandbox",
+      ],
     });
     const page = await browser.newPage();
     const allData = [] as any;
@@ -106,21 +109,21 @@ webSocketServer.on("connection", (ws: WebSocket) => {
           let hasNext = true;
           while (hasNext) {
             await setTimeout(3000);
-  
+
             await page.waitForSelector(`div[jscontroller="AtSb"]`, {
               timeout: 8000,
             });
-  
+
             //all iterable list items
             const selectors = await page.$$(`div[jscontroller="AtSb"]`);
-  
+
             const filteredSelectors = [] as any;
             //filter out ads from whole selection array
             for (const selector of selectors) {
               const hasDescendant = await selector.evaluate((el, className) => {
                 return Boolean(el.querySelector(`.${className}`));
               }, "kuaBWe");
-  
+
               if (!hasDescendant) {
                 filteredSelectors.push(selector);
               }
@@ -146,7 +149,9 @@ webSocketServer.on("connection", (ws: WebSocket) => {
             //   return false; // Return false if none of the selectors were clickable
             // }
             //console logging the restaurant number
-            console.log("Reklamsız restoran sayısı: " + filteredSelectors.length);
+            console.log(
+              "Reklamsız restoran sayısı: " + filteredSelectors.length
+            );
             for (const selector of filteredSelectors) {
               try {
                 // await page.$eval(
@@ -159,11 +164,11 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 //      throw new Error('Node is either not clickable or not an Element'); error,
                 await selector.waitForSelector(".OSrXXb");
                 const realSelector = await selector.$(".OSrXXb");
-  
+
                 await realSelector.click();
-  
+
                 //setting timeout here is important since it takes load time to load this and you cann do waitfor selector since it wsill confilct with already appeared components
-  
+
                 await setTimeout(2000);
                 //for wahetever reason google keeps state of header clicked so navigate to home. fucking nonsense
                 await page.waitForSelector(
@@ -179,7 +184,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 }
                 //clicking should be waited with second
                 await setTimeout(1000);
-  
+
                 let openDatesData = <any>[];
                 //if there is date entger here
                 const element = await page.$(".BTP3Ac");
@@ -192,7 +197,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                     const startIndex = rowsOfDates.findIndex((item) =>
                       item.classList.contains("K7Ltle")
                     );
-  
+
                     return rowsOfDates
                       .slice(startIndex, startIndex + 7)
                       .map((row) => ({
@@ -205,7 +210,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                   console.log("no date provided no breakout pls");
                   openDatesData = null;
                 }
-  
+
                 //fetchinbg info about the restaurant
                 const restaurantSingle = await page.evaluate((selectorr) => {
                   const openDates = <any>[];
@@ -216,32 +221,32 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                   const restaurantWebsiteLink = link
                     ? link.getAttribute("href")
                     : null;
-  
+
                   const detailedTitle = h2 ? h2.textContent : null;
                   const restaurantTitle =
                     selectorr.querySelector(".OSrXXb")?.textContent || null;
-  
+
                   const adress = document.querySelector(".LrzXr");
-  
+
                   const locationAddress = adress ? adress.textContent : null;
-  
+
                   const ratingOverall =
                     selectorr
                       .querySelector(".Y0A0hc")
                       .querySelector("span:nth-child(1)")?.textContent || null;
-  
+
                   const ratingOverallNumber =
                     selectorr
                       .querySelector(".Y0A0hc")
                       .querySelector("span:nth-child(3)")?.textContent || null;
-  
+
                   // const priceSelector = Array.from(
                   //   selectorr.querySelectorAll(".rllt__details > div:nth-child(2) > span")
                   // ).find(
                   //   (span: any) => // Using `any` for simplicity, but you could use `Element` and then assert it
                   //     (span as HTMLElement).textContent?.includes("₺") || (span as HTMLElement).textContent?.includes("$")
                   // )?.textContent;
-  
+
                   return {
                     detailedTitle,
                     restaurantTitle,
@@ -254,102 +259,79 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 }, selector);
                 //button to wait for clicking image
                 let allImageUrlData = <any>[];
+                await page.setRequestInterception(true);
+                console.log("starting image fetching");
+                const startTime = Date.now();
                 // No images found for this restaurant.TimeoutError: Waiting for selector `div[jscontroller="U0Base"] img[jsaction="rcuQ6b:trigger.M8vzZb;"]` failed: Waiting failed: 6000ms exceeded
-                
+                const handleImageFetchWhole = (request: any) => {
+                  if (request.isInterceptResolutionHandled()) {
+                    return;
+                  }
+                  const elapsedTime = Date.now() - startTime;
+                  if (elapsedTime > 20000) {
+                    request.continue();
+                    return;
+                  }
+                  if (
+                    request.url().endsWith(".png") ||
+                    request.url().endsWith(".jpg")
+                  ) {
+                    allImageUrlData = [
+                      ...allImageUrlData,
+                      { url: request.url() },
+                    ].slice(0, 25);
+                  }
+                  request.continue();
+                };
+
                 try {
-                  await page.waitForSelector('button[jscontroller="PEXgde"]', {timeout: 20000});
-    
-                  await page.evaluate(() => {
-                    const element = document?.querySelector('button[jscontroller="PEXgde"]')
-                    if(element instanceof HTMLElement) {
-                      element.click()
-                    }
-                  })
-                  const imageUrlClickElement = await page.$(
-                    'button[jscontroller="PEXgde"]'
-                  );
-                  await imageUrlClickElement?.click();
-                } catch (error) {
-                  console.log("error for clicking image" + error)
-                }
-                await page.waitForSelector('button[jscontroller="PEXgde"]');
-  
-                
-                //no need
-                // await setTimeout(1000);
-                try {
-                  await page.waitForSelector(
-                    'div[jscontroller="U0Base"] img[jsaction="rcuQ6b:trigger.M8vzZb;"]',
-                    { timeout: 20000 }
-                  );
-                  const startTime = Date.now();
-                  console.log("start time" + startTime);
-                  while (allImageUrlData.length < 20) {
-                    const newImageUrls = await page.evaluate(() => {
-                      const imageUrls = document.querySelectorAll(
-                        'div[jscontroller="U0Base"] img[jsaction="rcuQ6b:trigger.M8vzZb;"]'
-                      );
-                      if (
-                        imageUrls.length === 0 ||
-                        !imageUrls ||
-                        imageUrls === undefined
-                      ) {
-                        return null;
-                      }
-                      const imageUrlsData = Array.from(imageUrls, (item) => ({
-                        url: item.getAttribute("src"),
-                      }));
-  
-                      return imageUrlsData;
-                    });
-                    if (
-                      newImageUrls === null ||
-                      newImageUrls.length === 0 ||
-                      newImageUrls === undefined
-                    ) {
-                      allImageUrlData = null;
+                 await page.waitForSelector('button[jscontroller="PEXgde"]', {
+                   timeout: 20000,
+                 });
+                 await page.evaluate(() => {
+                   const element = document?.querySelector(
+                     'button[jscontroller="PEXgde"]'
+                   );
+                   if (element instanceof HTMLElement) {
+                     element.click();
+                   }
+                 });
+                 const imageUrlClickElement = await page.$(
+                   'button[jscontroller="PEXgde"]'
+                 );
+                 await imageUrlClickElement?.click();
+                  //clicking with 2 methods doesnt make sense but somehow works better
+                  // await page.focus('button[jscontroller="PEXgde"]')
+                  // await page.keyboard.type('\n')
+                  try {
+                    page.on("request", handleImageFetchWhole);
+                    await page.waitForSelector(
+                      'div[jscontroller="U0Base"] img[jsaction="rcuQ6b:trigger.M8vzZb;"]'
+                    );
+                  } catch (error) {
+                    if (error instanceof TimeoutError) {
+                      console.log("No images found for this restaurant." + error);
+                      // allImageUrlData = null; // Set to indicate no images were found
                     } else {
-                      allImageUrlData = [
-                        ...new Set([...newImageUrls.map((img) => img.url)]),
-                      ].map((url) => ({ url })); // setting up the array that will have url as its object parameter
-                    }
-  
-                    // Combine the new URLs with the existing ones, filtering out any duplicates
-  
-                    await page.evaluate(() => {
-                      document.querySelector(".HHuGCe")?.scrollBy(0, 500);
-                    });
-  
-                    await setTimeout(1000);
-  
-                    // breaking the loop if no new images are loaded
-                    if (newImageUrls?.length === 0) {
-                      break;
-                    }
-                    const elapsedTime = Date.now() - startTime;
-                    if (elapsedTime > 10000) {
-                      console.log(
-                        "5 seconds elapsed with less than 20 images, breaking loop."
-                      );
-                      break; // Break the loop if it's been more than 5 seconds
+                      // Log other errors
+                      console.error("Error fetching images:", error);
                     }
                   }
+                  //closing down the image modal that is appeared
+                  console.log("closing the modal");
+                  console.dir(allImageUrlData, { depth: null });
+                  const closingTheModal = await page.$(".jA3abb");
+                  await closingTheModal?.click();
                 } catch (error) {
-                  if (error instanceof TimeoutError) {
-                    console.log("No images found for this restaurant." + error);
-                    allImageUrlData = null; // Set to indicate no images were found
-                  } else {
-                    // Log other errors
-                    console.error("Error fetching images:", error);
-                  }
+                  console.log("error for clicking image" + error);
                 }
-                //closing down the image modal that is appeared
-                const closingTheModal = await page.$(".jA3abb");
-                await closingTheModal?.click();
-  
+
+
                 //this tiemout important since for whatever reason, waitforselector method is not enough for these clicks
                 await setTimeout(1000);
-  
+                page.off("request", handleImageFetchWhole);
+
+
                 //waiting for headers to appear and navigatin to reviews
                 await page.waitForSelector(
                   'div[jsname="xNyui"] > a[jsname="AznF2e"]',
@@ -357,7 +339,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                     visible: true,
                   }
                 );
-  
+
                 const openingReviews = await page.$$(
                   'div[jsname="xNyui"] > a[jsname="AznF2e"]'
                 );
@@ -368,13 +350,13 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                   throw new Error("Expected review tabs not found");
                 }
                 let allReviewData = <any>[];
-  
+
                 try {
                   await page.waitForSelector("div.bwb7ce", {
                     visible: true,
                     timeout: 6000,
                   });
-  
+
                   await setTimeout(1000);
                   const startTime = Date.now();
                   console.log("start time reservation" + startTime);
@@ -433,15 +415,17 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                           };
                         }
                       );
-  
+
                       return reviewDataColumns;
                     });
-  
+
                     if (
                       reviewDataQuery === null ||
                       reviewDataQuery.length === 0
                     ) {
-                      console.log("No reviews found or unable to fetch reviews.");
+                      console.log(
+                        "No reviews found or unable to fetch reviews."
+                      );
                       allReviewData = null;
                     } else {
                       allReviewData = [
@@ -455,7 +439,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                         ]),
                       ];
                     }
-  
+
                     await page.evaluate(() => {
                       const scrollHeight =
                         document.querySelector("div#rhs")?.scrollHeight;
@@ -465,9 +449,9 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                           ?.scrollBy(0, scrollHeight);
                       }
                     });
-  
+
                     await setTimeout(1000);
-  
+
                     if (allReviewData.length === 0) {
                       break;
                     }
@@ -481,14 +465,14 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                   }
                 } catch (error) {
                   if (error instanceof TimeoutError) {
-                    console.log("No images found for this restaurant.");
-                    allImageUrlData = null; // Set to indicate no images were found
+                    console.log("No review found for this restaurant.");
+                    allReviewData = null; // Set to indicate no images were found
                   } else {
                     // Log other errors
-                    console.error("Error fetching images:", error);
+                    console.error("Error fetching reviews:", error);
                   }
                 }
-  
+
                 const allOfTheData = {
                   ...restaurantSingle, // Assuming restaurantSingle is an object containing restaurant details
                   images: allImageUrlData || null, // Ensure allImageUrlData is an array of image URLs
@@ -498,7 +482,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 ws.send(JSON.stringify(allOfTheData));
                 console.log(firstWordArray[i]);
                 console.dir(allOfTheData, { depth: null });
-  
+
                 // await axios
                 //   .post("http://localhost:3000", allOfTheData)
                 //   .then((response) => {
@@ -520,7 +504,7 @@ webSocketServer.on("connection", (ws: WebSocket) => {
                 );
               }
             }
-  
+
             const nextPageButton = await page.$("a#pnnext");
             if (nextPageButton) {
               await Promise.all([
@@ -536,11 +520,8 @@ webSocketServer.on("connection", (ws: WebSocket) => {
             "error happened while query probably at the end of page: " + error
           );
         }
-        
       } catch (error) {
-
-        console.log("error happpend at most outer try catch block: " + error)
-        
+        console.log("error happpend at most outer try catch block: " + error);
       }
       // await setTimeout(9999999);
       // await setTimeout(30000);
